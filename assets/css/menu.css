@@ -2,6 +2,11 @@
   margin: 0 auto;
   font-family: 'Indie Flower', cursive;
 }
+
+body {
+  background-image: ;
+}
+
 .container{
   display: flex;
   justify-content: center;
@@ -17,6 +22,14 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.op-arriba {
+  margin-bottom: -12%;
+}
+
+.op-abajo {
+  margin-top: -12%;
 }
 
 .opciones > img {
@@ -41,7 +54,7 @@
 }
 
 .imagenCentral:hover {
-  transform: scale(1.8)
+  transform: scale(1.4)
 }
 
 div > p {
