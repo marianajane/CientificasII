@@ -11,12 +11,11 @@ nav {
 .flex-nav {
   display: flex;
   justify-content: center;
-  
   height: auto;
   padding: 1%;
 }
 
-a {
+.a-nav {
   display: flex;
   align-items: center;
   color: black;
@@ -29,23 +28,24 @@ a {
   border-radius: 5px;
 }
 
-div > a {
+.personajes {
+	width: 30%;
+}
+
+.flex-nav > .a-nav {
+
   display: flex;
-  align-self: flex-end;
+  align-self: center;
   text-align: center;
 }
 
 .img-nav > img {
   width: 80%;
+
 }
 
-div > span {
-  font-size: 3vw;
-  color: white;
-  margin-top: 5%;
-  margin-left: 10%;
-  font-weight: 900;
-  font-family: helvetica;
+h1 {
+	text-align: center;
 }
 
 img {
@@ -54,20 +54,24 @@ img {
 
 .juegos-wrap {
 	display: flex;
-	flex-direction: row;
+	justify-content: center;
 }
 
-.cuadros-juegos > a{
-	display: flex;
-	justify-content: center;
+.cuadros-juegos > a  {
 	width: 100%;
-	border-style: none;
+  margin-bottom: 2%;
 }
 
 .cuadros-juegos > a > img {
-	width: 30%;
+	width: 40%;
+	height: 60%;
+	display: flex;
+	justify-content: space-around;
 }
 
-.blocked {
+.blocked > img{
+  margin-top: 5%;
+	display: flex;
+	justify-content: center;
 	width: 100%;
 }
