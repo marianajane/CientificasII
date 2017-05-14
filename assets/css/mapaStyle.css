@@ -1,0 +1,269 @@
+/*
+ * Clases reutilizables para el proyecto
+ * (Aquí pueden ir las clases de tu grid)
+ */
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+.m-0{
+  margin-top: 0;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', cursive;
+
+
+}
+.container{
+  display: flex;
+  width: 100%;
+  /*max-width: 1200px;*/
+  margin: 0px auto;
+  color: white;
+}
+.container a{
+  color: white;
+}
+.row:before, .row:after{
+  content: " ";
+  display: table;
+}
+.row:after{
+  clear: both;
+}
+
+[class*="col-"]{
+  min-height: 7px;
+  padding: 12px;
+  float: left;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+  }
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+.logo{
+  /*Hacemos que el logo se posicione al lado derecho*/
+  float: right;
+
+}
+header{
+  /*Hace que el menu este fijo*/
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+.menu{
+  width: 100%;
+  text-align: left;
+  padding: 14px 70px;
+  overflow: auto;
+  background-color: #A23B72;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+.logo{
+  /*Hacemos que el logo se posicione al lado derecho*/
+  float: right;
+}
+header{
+  /*Hace que el menu este fijo*/
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+#home{
+  background-image: url(../assets/images/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;/*Cubre todo el tamaño del contenedor*/
+  height: 554px;
+  text-align: center;
+  margin-top: 80px;
+}
+#home .container{
+  color: white;
+  padding: 70px;
+}
+.text-home{
+  font-size: 53px;
+}
+.btn-home{
+  background: #2ECC71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+#services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+#work{
+  background-image: url("../images/mapa.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: black;
+  padding: 70px 7px;
+}
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.workImage{
+  height: 100px;
+  width:100px;
+}
+
+footer{
+  text-align: center;
+  height: 70px;
+  background: #373b47;
+  color: white;
+  padding-top: 7px;
+}
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: #04CFEB;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 25%; /* 100% width */
+    margin-top: 30px;
+
+    border: solid 5px white;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+.capa-imagen{
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.infoContainer{
+  height: 300px;
+  color: black;
+  font-size: 30px;
+  display:         flex;
+  align-items: center;
+  justify-content: center;
+}
