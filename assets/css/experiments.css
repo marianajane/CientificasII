@@ -5,7 +5,7 @@
 }
 
 nav {
-  background-color: #2E86AB;
+  background-color: #A23B72;
 }
 
 .flex-nav {
@@ -49,25 +49,17 @@ div > span {
 }
 
 img {
-  width: 100%;
+  width: 10%;
 }
 
-.juegos-wrap {
-	display: flex;
-	flex-direction: row;
-}
-
-.cuadros-juegos > a{
+.cuadros-experimentos > a{
 	display: flex;
 	justify-content: center;
 	width: 100%;
 	border-style: none;
 }
 
-.cuadros-juegos > a > img {
+.cuadros-experimentos > a > img {
 	width: 30%;
 }
 
-.blocked {
-	width: 100%;
-}
