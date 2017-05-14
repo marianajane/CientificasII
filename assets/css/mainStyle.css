@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+	
+}
+
+.general-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	
+}
+
+.general-container > img {
+	width: 100%;
+	position: absolute;
+}
+
+.entrar {
+	width: 100%;
+	position: absolute;
+	margin-top: 50%;
+}
+
+div > a > img {
+	width: 20%;
+	margin-left: 40%;
+}
