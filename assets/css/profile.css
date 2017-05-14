@@ -59,6 +59,11 @@
 
   justify-content: center;
 }
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .profileOption{
     background-color: #2E86AB;
     width: 33.3%;
